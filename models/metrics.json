@@ -1,0 +1,1016 @@
+{
+  "n_test": 443,
+  "accuracy": 0.9187358916478555,
+  "accuracy_ci95": [
+    0.8895462542500792,
+    0.9407255915225614
+  ],
+  "baseline_majority_accuracy": 0.31376975169300225,
+  "macro": {
+    "precision": 0.8992322279585565,
+    "recall": 0.9078918669636116,
+    "f1": 0.901571320099384
+  },
+  "weighted": {
+    "precision": 0.921750808769688,
+    "recall": 0.9187358916478555,
+    "f1": 0.918963242308011
+  },
+  "per_class": {
+    "Biologie": {
+      "precision": 0.8714285714285714,
+      "recall": 0.8970588235294118,
+      "f1": 0.8840579710144928,
+      "support": 68
+    },
+    "Chimie": {
+      "precision": 0.7884615384615384,
+      "recall": 0.9318181818181818,
+      "f1": 0.8541666666666666,
+      "support": 44
+    },
+    "Histoire": {
+      "precision": 0.9436619718309859,
+      "recall": 0.9640287769784173,
+      "f1": 0.9537366548042705,
+      "support": 139
+    },
+    "Mathématiques": {
+      "precision": 0.9745762711864406,
+      "recall": 0.9349593495934959,
+      "f1": 0.9543568464730291,
+      "support": 123
+    },
+    "Physique": {
+      "precision": 0.9180327868852459,
+      "recall": 0.8115942028985508,
+      "f1": 0.8615384615384616,
+      "support": 69
+    }
+  },
+  "labels": [
+    "Biologie",
+    "Chimie",
+    "Histoire",
+    "Mathématiques",
+    "Physique"
+  ],
+  "confusion_matrix": [
+    [
+      61,
+      3,
+      4,
+      0,
+      0
+    ],
+    [
+      1,
+      41,
+      1,
+      1,
+      0
+    ],
+    [
+      3,
+      0,
+      134,
+      0,
+      2
+    ],
+    [
+      1,
+      3,
+      1,
+      115,
+      3
+    ],
+    [
+      4,
+      5,
+      2,
+      2,
+      56
+    ]
+  ],
+  "best_epoch": 8,
+  "best_epochs": [
+    8,
+    5,
+    6,
+    7,
+    7
+  ],
+  "epochs_first_model": 13,
+  "n_models": 5,
+  "vocab_size": 10447,
+  "params_per_model": 670853,
+  "low_confidence_validation": {
+    "threshold": 0.6,
+    "low_n": 31,
+    "low_accuracy": 0.5161290322580645,
+    "high_n": 412,
+    "high_accuracy": 0.9393203883495146
+  },
+  "control_questions": {
+    "accuracy": {
+      "controle": 0.88,
+      "reglage": 0.8833333333333333
+    },
+    "n": {
+      "controle": 50,
+      "reglage": 60
+    },
+    "details": [
+      {
+        "ensemble": "reglage",
+        "label": "Biologie",
+        "question": "Quelle est la fonction des mitochondries ?",
+        "predicted": "Mathématiques",
+        "confidence": 0.7408667802810669,
+        "correct": false
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Biologie",
+        "question": "Qu'est-ce que la photosynthèse ?",
+        "predicted": "Biologie",
+        "confidence": 0.9989379644393921,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Biologie",
+        "question": "Quel est le rôle des globules rouges ?",
+        "predicted": "Mathématiques",
+        "confidence": 0.7023476362228394,
+        "correct": false
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Biologie",
+        "question": "Comment les plantes absorbent-elles l'eau ?",
+        "predicted": "Biologie",
+        "confidence": 0.9958714246749878,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Biologie",
+        "question": "Quelle est la différence entre un gène et un chromosome ?",
+        "predicted": "Biologie",
+        "confidence": 0.9978475570678711,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Biologie",
+        "question": "Qu'est-ce que la méiose ?",
+        "predicted": "Biologie",
+        "confidence": 0.9993392825126648,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Biologie",
+        "question": "Quel organe produit l'insuline ?",
+        "predicted": "Biologie",
+        "confidence": 0.8481313586235046,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Biologie",
+        "question": "Comment fonctionne la sélection naturelle ?",
+        "predicted": "Biologie",
+        "confidence": 0.9375081062316895,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Biologie",
+        "question": "Quel est le rôle des ribosomes dans la cellule ?",
+        "predicted": "Biologie",
+        "confidence": 0.9970599412918091,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Biologie",
+        "question": "Qu'est-ce qu'un écosystème ?",
+        "predicted": "Biologie",
+        "confidence": 0.9995946884155273,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Biologie",
+        "question": "Quelle est la fonction du système immunitaire ?",
+        "predicted": "Mathématiques",
+        "confidence": 0.86091148853302,
+        "correct": false
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Biologie",
+        "question": "Pourquoi les feuilles sont-elles vertes ?",
+        "predicted": "Biologie",
+        "confidence": 0.9293466806411743,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Chimie",
+        "question": "Quelle est la composition chimique de l'eau ?",
+        "predicted": "Chimie",
+        "confidence": 0.8442999124526978,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Chimie",
+        "question": "Qu'est-ce qu'une liaison covalente ?",
+        "predicted": "Chimie",
+        "confidence": 0.9931448101997375,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Chimie",
+        "question": "Quel est le numéro atomique du carbone ?",
+        "predicted": "Physique",
+        "confidence": 0.3902273178100586,
+        "correct": false
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Chimie",
+        "question": "Comment équilibrer une réaction chimique ?",
+        "predicted": "Chimie",
+        "confidence": 0.9620727300643921,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Chimie",
+        "question": "Qu'est-ce qu'un acide fort ?",
+        "predicted": "Chimie",
+        "confidence": 0.9991898536682129,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Chimie",
+        "question": "Quelle est la formule du dioxyde de carbone ?",
+        "predicted": "Chimie",
+        "confidence": 0.9844972491264343,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Chimie",
+        "question": "Que signifie une mole de molécules ?",
+        "predicted": "Chimie",
+        "confidence": 0.9960731267929077,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Chimie",
+        "question": "Qu'est-ce qu'un catalyseur ?",
+        "predicted": "Chimie",
+        "confidence": 0.9920461773872375,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Chimie",
+        "question": "Quels sont les éléments du tableau périodique les plus réactifs ?",
+        "predicted": "Chimie",
+        "confidence": 0.9611238241195679,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Chimie",
+        "question": "Quelle est la masse molaire du sodium ?",
+        "predicted": "Chimie",
+        "confidence": 0.9963588714599609,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Chimie",
+        "question": "Qu'est-ce qu'une réaction d'oxydoréduction ?",
+        "predicted": "Chimie",
+        "confidence": 0.9958068132400513,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Chimie",
+        "question": "Comment se forme un ion ?",
+        "predicted": "Chimie",
+        "confidence": 0.9690548181533813,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Histoire",
+        "question": "Quelles sont les causes de la Seconde Guerre mondiale ?",
+        "predicted": "Histoire",
+        "confidence": 0.9990311861038208,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Histoire",
+        "question": "En quelle année a eu lieu la chute du mur de Berlin ?",
+        "predicted": "Histoire",
+        "confidence": 0.30834701657295227,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Histoire",
+        "question": "Qui était Louis XIV ?",
+        "predicted": "Histoire",
+        "confidence": 0.9938027262687683,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Histoire",
+        "question": "Qu'est-ce que la guerre froide ?",
+        "predicted": "Histoire",
+        "confidence": 0.9995241165161133,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Histoire",
+        "question": "Pourquoi l'Empire romain a-t-il disparu ?",
+        "predicted": "Histoire",
+        "confidence": 0.9886561632156372,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Histoire",
+        "question": "Quel fut le rôle de Jeanne d'Arc ?",
+        "predicted": "Histoire",
+        "confidence": 0.6464791893959045,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Histoire",
+        "question": "Quand les États-Unis ont-ils déclaré leur indépendance ?",
+        "predicted": "Histoire",
+        "confidence": 0.9032634496688843,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Histoire",
+        "question": "Qu'est-ce que la traite des esclaves ?",
+        "predicted": "Histoire",
+        "confidence": 0.9963140487670898,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Histoire",
+        "question": "Quelles furent les conséquences du traité de Versailles ?",
+        "predicted": "Histoire",
+        "confidence": 0.9602295160293579,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Histoire",
+        "question": "Qui a dirigé la révolution russe de 1917 ?",
+        "predicted": "Histoire",
+        "confidence": 0.9713906049728394,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Histoire",
+        "question": "Comment vivaient les paysans au Moyen Âge ?",
+        "predicted": "Histoire",
+        "confidence": 0.994838535785675,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Histoire",
+        "question": "Quand a commencé la colonisation de l'Afrique ?",
+        "predicted": "Histoire",
+        "confidence": 0.8884069323539734,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Mathématiques",
+        "question": "Calculez la dérivée de x².",
+        "predicted": "Mathématiques",
+        "confidence": 0.5586110353469849,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Mathématiques",
+        "question": "Résoudre l'équation 3x - 5 = 10.",
+        "predicted": "Mathématiques",
+        "confidence": 0.9737880825996399,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Mathématiques",
+        "question": "Quelle est l'aire d'un cercle de rayon 4 ?",
+        "predicted": "Mathématiques",
+        "confidence": 0.9582929611206055,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Mathématiques",
+        "question": "Qu'est-ce qu'un nombre premier ?",
+        "predicted": "Mathématiques",
+        "confidence": 0.991621196269989,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Mathématiques",
+        "question": "Calculez la somme des angles d'un triangle.",
+        "predicted": "Mathématiques",
+        "confidence": 0.8425000905990601,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Mathématiques",
+        "question": "Quelle est la racine carrée de 144 ?",
+        "predicted": "Mathématiques",
+        "confidence": 0.7349282503128052,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Mathématiques",
+        "question": "Combien font 15 multiplié par 6 ?",
+        "predicted": "Mathématiques",
+        "confidence": 0.8186482191085815,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Mathématiques",
+        "question": "Factorisez le polynôme x² - 9.",
+        "predicted": "Mathématiques",
+        "confidence": 0.9829248189926147,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Mathématiques",
+        "question": "Quelle est la limite de 1/x quand x tend vers l'infini ?",
+        "predicted": "Mathématiques",
+        "confidence": 0.6605387926101685,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Mathématiques",
+        "question": "Déterminez le plus grand diviseur commun de 12 et 18.",
+        "predicted": "Mathématiques",
+        "confidence": 0.8944050669670105,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Mathématiques",
+        "question": "Quelle est la fonction inverse de f(x) = 2x ?",
+        "predicted": "Mathématiques",
+        "confidence": 0.9969813227653503,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Mathématiques",
+        "question": "Calculez l'intégrale de x entre 0 et 1.",
+        "predicted": "Mathématiques",
+        "confidence": 0.9376924633979797,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Physique",
+        "question": "Expliquez la deuxième loi de Newton.",
+        "predicted": "Physique",
+        "confidence": 0.9694711565971375,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Physique",
+        "question": "Quelle est la vitesse du son dans l'air ?",
+        "predicted": "Physique",
+        "confidence": 0.9744647741317749,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Physique",
+        "question": "Qu'est-ce que l'énergie cinétique ?",
+        "predicted": "Physique",
+        "confidence": 0.991871178150177,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Physique",
+        "question": "Comment fonctionne un circuit électrique ?",
+        "predicted": "Physique",
+        "confidence": 0.9975107312202454,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Physique",
+        "question": "Quelle est l'unité de la force ?",
+        "predicted": "Mathématiques",
+        "confidence": 0.5574945211410522,
+        "correct": false
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Physique",
+        "question": "Pourquoi les objets tombent-ils vers le sol ?",
+        "predicted": "Physique",
+        "confidence": 0.9912376403808594,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Physique",
+        "question": "Qu'est-ce que la réfraction de la lumière ?",
+        "predicted": "Physique",
+        "confidence": 0.9972115755081177,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Physique",
+        "question": "Que dit la loi d'Ohm ?",
+        "predicted": "Histoire",
+        "confidence": 0.49222326278686523,
+        "correct": false
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Physique",
+        "question": "Qu'est-ce qu'un champ magnétique ?",
+        "predicted": "Physique",
+        "confidence": 0.9744106531143188,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Physique",
+        "question": "Quelle est la relation entre la pression et le volume d'un gaz ?",
+        "predicted": "Chimie",
+        "confidence": 0.9251646995544434,
+        "correct": false
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Physique",
+        "question": "Comment se propage une onde sonore ?",
+        "predicted": "Physique",
+        "confidence": 0.990314781665802,
+        "correct": true
+      },
+      {
+        "ensemble": "reglage",
+        "label": "Physique",
+        "question": "Qu'est-ce que la gravité ?",
+        "predicted": "Physique",
+        "confidence": 0.9972372055053711,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Biologie",
+        "question": "Quel est le rôle du noyau d'une cellule ?",
+        "predicted": "Biologie",
+        "confidence": 0.9899259805679321,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Biologie",
+        "question": "Comment les abeilles participent-elles à la pollinisation ?",
+        "predicted": "Biologie",
+        "confidence": 0.977607250213623,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Biologie",
+        "question": "Que transporte le sang dans le corps humain ?",
+        "predicted": "Biologie",
+        "confidence": 0.9955304861068726,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Biologie",
+        "question": "Quelle est la différence entre une bactérie et un virus ?",
+        "predicted": "Biologie",
+        "confidence": 0.9904016256332397,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Biologie",
+        "question": "Qu'est-ce que la mitose ?",
+        "predicted": "Biologie",
+        "confidence": 0.9878339767456055,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Biologie",
+        "question": "Comment se reproduisent les champignons ?",
+        "predicted": "Biologie",
+        "confidence": 0.9929691553115845,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Biologie",
+        "question": "Quel est le rôle du foie ?",
+        "predicted": "Mathématiques",
+        "confidence": 0.8609915971755981,
+        "correct": false
+      },
+      {
+        "ensemble": "controle",
+        "label": "Biologie",
+        "question": "Qu'est-ce qu'une mutation génétique ?",
+        "predicted": "Biologie",
+        "confidence": 0.9999635815620422,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Biologie",
+        "question": "À quoi servent les enzymes digestives ?",
+        "predicted": "Biologie",
+        "confidence": 0.9665179252624512,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Biologie",
+        "question": "Quels animaux sont des mammifères ?",
+        "predicted": "Histoire",
+        "confidence": 0.6931183934211731,
+        "correct": false
+      },
+      {
+        "ensemble": "controle",
+        "label": "Chimie",
+        "question": "Qu'est-ce qu'une base en solution aqueuse ?",
+        "predicted": "Chimie",
+        "confidence": 0.9978631734848022,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Chimie",
+        "question": "Quel est le symbole chimique du fer ?",
+        "predicted": "Chimie",
+        "confidence": 0.9249558448791504,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Chimie",
+        "question": "Combien d'électrons possède un atome d'oxygène ?",
+        "predicted": "Physique",
+        "confidence": 0.524446964263916,
+        "correct": false
+      },
+      {
+        "ensemble": "controle",
+        "label": "Chimie",
+        "question": "Qu'est-ce qu'un alcane ?",
+        "predicted": "Chimie",
+        "confidence": 0.9698992967605591,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Chimie",
+        "question": "Comment calculer la concentration d'une solution ?",
+        "predicted": "Chimie",
+        "confidence": 0.6460365056991577,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Chimie",
+        "question": "Qu'est-ce qu'une réaction exothermique ?",
+        "predicted": "Chimie",
+        "confidence": 0.9974508285522461,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Chimie",
+        "question": "Quelle est la formule de l'ammoniac ?",
+        "predicted": "Chimie",
+        "confidence": 0.9842941164970398,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Chimie",
+        "question": "Pourquoi le sel se dissout-il dans l'eau ?",
+        "predicted": "Chimie",
+        "confidence": 0.8610596656799316,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Chimie",
+        "question": "Qu'est-ce que l'électronégativité ?",
+        "predicted": "Chimie",
+        "confidence": 0.9957929849624634,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Chimie",
+        "question": "Qu'est-ce qu'un isotope ?",
+        "predicted": "Chimie",
+        "confidence": 0.9296565055847168,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Histoire",
+        "question": "Qui était Napoléon Bonaparte ?",
+        "predicted": "Histoire",
+        "confidence": 0.9995771646499634,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Histoire",
+        "question": "Quand a eu lieu la Révolution française ?",
+        "predicted": "Histoire",
+        "confidence": 0.9783205986022949,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Histoire",
+        "question": "Pourquoi la Première Guerre mondiale a-t-elle éclaté ?",
+        "predicted": "Histoire",
+        "confidence": 0.9985007047653198,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Histoire",
+        "question": "Qui a découvert l'Amérique en 1492 ?",
+        "predicted": "Histoire",
+        "confidence": 0.9997626543045044,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Histoire",
+        "question": "Qu'est-ce que la Renaissance ?",
+        "predicted": "Histoire",
+        "confidence": 0.9858099222183228,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Histoire",
+        "question": "Quel était le rôle des pharaons en Égypte ancienne ?",
+        "predicted": "Histoire",
+        "confidence": 0.9982157945632935,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Histoire",
+        "question": "Quelles ont été les conséquences de la guerre de Sécession ?",
+        "predicted": "Histoire",
+        "confidence": 0.9923950433731079,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Histoire",
+        "question": "Qui était Abraham Lincoln ?",
+        "predicted": "Histoire",
+        "confidence": 0.9993756413459778,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Histoire",
+        "question": "Qu'est-ce que la féodalité ?",
+        "predicted": "Chimie",
+        "confidence": 0.5916218757629395,
+        "correct": false
+      },
+      {
+        "ensemble": "controle",
+        "label": "Histoire",
+        "question": "Comment l'Empire ottoman s'est-il effondré ?",
+        "predicted": "Histoire",
+        "confidence": 0.9899493455886841,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Mathématiques",
+        "question": "Résoudre l'équation x² = 25.",
+        "predicted": "Mathématiques",
+        "confidence": 0.9161900281906128,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Mathématiques",
+        "question": "Quel est le périmètre d'un carré de côté 7 ?",
+        "predicted": "Mathématiques",
+        "confidence": 0.9845291376113892,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Mathématiques",
+        "question": "Combien font 12 divisé par 4 ?",
+        "predicted": "Mathématiques",
+        "confidence": 0.9297711253166199,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Mathématiques",
+        "question": "Qu'est-ce qu'une matrice carrée ?",
+        "predicted": "Mathématiques",
+        "confidence": 0.8143299221992493,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Mathématiques",
+        "question": "Calculez 20 % de 150.",
+        "predicted": "Mathématiques",
+        "confidence": 0.5745571255683899,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Mathématiques",
+        "question": "Simplifiez la fraction 18/24.",
+        "predicted": "Mathématiques",
+        "confidence": 0.8975256681442261,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Mathématiques",
+        "question": "Quelle est la dérivée de la fonction sinus ?",
+        "predicted": "Mathématiques",
+        "confidence": 0.8774312138557434,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Mathématiques",
+        "question": "Qu'est-ce qu'un vecteur ?",
+        "predicted": "Mathématiques",
+        "confidence": 0.520888090133667,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Mathématiques",
+        "question": "Trouvez la valeur de y si 2y + 4 = 12.",
+        "predicted": "Mathématiques",
+        "confidence": 0.9811962842941284,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Mathématiques",
+        "question": "Quel est le théorème de Pythagore ?",
+        "predicted": "Mathématiques",
+        "confidence": 0.8333719372749329,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Physique",
+        "question": "Qu'est-ce que l'accélération ?",
+        "predicted": "Physique",
+        "confidence": 0.9999910593032837,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Physique",
+        "question": "Quelle est la vitesse de la lumière dans le vide ?",
+        "predicted": "Physique",
+        "confidence": 0.8389520645141602,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Physique",
+        "question": "Comment fonctionne une lentille convergente ?",
+        "predicted": "Biologie",
+        "confidence": 0.6820436120033264,
+        "correct": false
+      },
+      {
+        "ensemble": "controle",
+        "label": "Physique",
+        "question": "Quelle force s'exerce sur un objet en chute libre ?",
+        "predicted": "Physique",
+        "confidence": 0.9906711578369141,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Physique",
+        "question": "Qu'est-ce que la résistance électrique ?",
+        "predicted": "Physique",
+        "confidence": 0.9991338849067688,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Physique",
+        "question": "Qu'est-ce que l'énergie potentielle ?",
+        "predicted": "Physique",
+        "confidence": 0.9872323870658875,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Physique",
+        "question": "Quelle est la période d'un pendule ?",
+        "predicted": "Mathématiques",
+        "confidence": 0.5319873094558716,
+        "correct": false
+      },
+      {
+        "ensemble": "controle",
+        "label": "Physique",
+        "question": "Que dit le principe d'Archimède ?",
+        "predicted": "Physique",
+        "confidence": 0.9617877006530762,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Physique",
+        "question": "Qu'est-ce que la fréquence d'une onde ?",
+        "predicted": "Physique",
+        "confidence": 0.9999078512191772,
+        "correct": true
+      },
+      {
+        "ensemble": "controle",
+        "label": "Physique",
+        "question": "Comment la chaleur se transmet-elle par conduction ?",
+        "predicted": "Physique",
+        "confidence": 0.9249467849731445,
+        "correct": true
+      }
+    ]
+  },
+  "accuracy_by_length": {
+    "short": {
+      "n": 328,
+      "accuracy": 0.899390243902439
+    },
+    "long": {
+      "n": 115,
+      "accuracy": 0.9739130434782609
+    }
+  }
+}

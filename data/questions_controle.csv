@@ -1,0 +1,111 @@
+ensemble,label,question
+reglage,Biologie,Quelle est la fonction des mitochondries ?
+reglage,Biologie,Qu'est-ce que la photosynthèse ?
+reglage,Biologie,Quel est le rôle des globules rouges ?
+reglage,Biologie,Comment les plantes absorbent-elles l'eau ?
+reglage,Biologie,Quelle est la différence entre un gène et un chromosome ?
+reglage,Biologie,Qu'est-ce que la méiose ?
+reglage,Biologie,Quel organe produit l'insuline ?
+reglage,Biologie,Comment fonctionne la sélection naturelle ?
+reglage,Biologie,Quel est le rôle des ribosomes dans la cellule ?
+reglage,Biologie,Qu'est-ce qu'un écosystème ?
+reglage,Biologie,Quelle est la fonction du système immunitaire ?
+reglage,Biologie,Pourquoi les feuilles sont-elles vertes ?
+reglage,Chimie,Quelle est la composition chimique de l'eau ?
+reglage,Chimie,Qu'est-ce qu'une liaison covalente ?
+reglage,Chimie,Quel est le numéro atomique du carbone ?
+reglage,Chimie,Comment équilibrer une réaction chimique ?
+reglage,Chimie,Qu'est-ce qu'un acide fort ?
+reglage,Chimie,Quelle est la formule du dioxyde de carbone ?
+reglage,Chimie,Que signifie une mole de molécules ?
+reglage,Chimie,Qu'est-ce qu'un catalyseur ?
+reglage,Chimie,Quels sont les éléments du tableau périodique les plus réactifs ?
+reglage,Chimie,Quelle est la masse molaire du sodium ?
+reglage,Chimie,Qu'est-ce qu'une réaction d'oxydoréduction ?
+reglage,Chimie,Comment se forme un ion ?
+reglage,Histoire,Quelles sont les causes de la Seconde Guerre mondiale ?
+reglage,Histoire,En quelle année a eu lieu la chute du mur de Berlin ?
+reglage,Histoire,Qui était Louis XIV ?
+reglage,Histoire,Qu'est-ce que la guerre froide ?
+reglage,Histoire,Pourquoi l'Empire romain a-t-il disparu ?
+reglage,Histoire,Quel fut le rôle de Jeanne d'Arc ?
+reglage,Histoire,Quand les États-Unis ont-ils déclaré leur indépendance ?
+reglage,Histoire,Qu'est-ce que la traite des esclaves ?
+reglage,Histoire,Quelles furent les conséquences du traité de Versailles ?
+reglage,Histoire,Qui a dirigé la révolution russe de 1917 ?
+reglage,Histoire,Comment vivaient les paysans au Moyen Âge ?
+reglage,Histoire,Quand a commencé la colonisation de l'Afrique ?
+reglage,Mathématiques,Calculez la dérivée de x².
+reglage,Mathématiques,Résoudre l'équation 3x - 5 = 10.
+reglage,Mathématiques,Quelle est l'aire d'un cercle de rayon 4 ?
+reglage,Mathématiques,Qu'est-ce qu'un nombre premier ?
+reglage,Mathématiques,Calculez la somme des angles d'un triangle.
+reglage,Mathématiques,Quelle est la racine carrée de 144 ?
+reglage,Mathématiques,Combien font 15 multiplié par 6 ?
+reglage,Mathématiques,Factorisez le polynôme x² - 9.
+reglage,Mathématiques,Quelle est la limite de 1/x quand x tend vers l'infini ?
+reglage,Mathématiques,Déterminez le plus grand diviseur commun de 12 et 18.
+reglage,Mathématiques,Quelle est la fonction inverse de f(x) = 2x ?
+reglage,Mathématiques,Calculez l'intégrale de x entre 0 et 1.
+reglage,Physique,Expliquez la deuxième loi de Newton.
+reglage,Physique,Quelle est la vitesse du son dans l'air ?
+reglage,Physique,Qu'est-ce que l'énergie cinétique ?
+reglage,Physique,Comment fonctionne un circuit électrique ?
+reglage,Physique,Quelle est l'unité de la force ?
+reglage,Physique,Pourquoi les objets tombent-ils vers le sol ?
+reglage,Physique,Qu'est-ce que la réfraction de la lumière ?
+reglage,Physique,Que dit la loi d'Ohm ?
+reglage,Physique,Qu'est-ce qu'un champ magnétique ?
+reglage,Physique,Quelle est la relation entre la pression et le volume d'un gaz ?
+reglage,Physique,Comment se propage une onde sonore ?
+reglage,Physique,Qu'est-ce que la gravité ?
+controle,Biologie,Quel est le rôle du noyau d'une cellule ?
+controle,Biologie,Comment les abeilles participent-elles à la pollinisation ?
+controle,Biologie,Que transporte le sang dans le corps humain ?
+controle,Biologie,Quelle est la différence entre une bactérie et un virus ?
+controle,Biologie,Qu'est-ce que la mitose ?
+controle,Biologie,Comment se reproduisent les champignons ?
+controle,Biologie,Quel est le rôle du foie ?
+controle,Biologie,Qu'est-ce qu'une mutation génétique ?
+controle,Biologie,À quoi servent les enzymes digestives ?
+controle,Biologie,Quels animaux sont des mammifères ?
+controle,Chimie,Qu'est-ce qu'une base en solution aqueuse ?
+controle,Chimie,Quel est le symbole chimique du fer ?
+controle,Chimie,Combien d'électrons possède un atome d'oxygène ?
+controle,Chimie,Qu'est-ce qu'un alcane ?
+controle,Chimie,Comment calculer la concentration d'une solution ?
+controle,Chimie,Qu'est-ce qu'une réaction exothermique ?
+controle,Chimie,Quelle est la formule de l'ammoniac ?
+controle,Chimie,Pourquoi le sel se dissout-il dans l'eau ?
+controle,Chimie,Qu'est-ce que l'électronégativité ?
+controle,Chimie,Qu'est-ce qu'un isotope ?
+controle,Histoire,Qui était Napoléon Bonaparte ?
+controle,Histoire,Quand a eu lieu la Révolution française ?
+controle,Histoire,Pourquoi la Première Guerre mondiale a-t-elle éclaté ?
+controle,Histoire,Qui a découvert l'Amérique en 1492 ?
+controle,Histoire,Qu'est-ce que la Renaissance ?
+controle,Histoire,Quel était le rôle des pharaons en Égypte ancienne ?
+controle,Histoire,Quelles ont été les conséquences de la guerre de Sécession ?
+controle,Histoire,Qui était Abraham Lincoln ?
+controle,Histoire,Qu'est-ce que la féodalité ?
+controle,Histoire,Comment l'Empire ottoman s'est-il effondré ?
+controle,Mathématiques,Résoudre l'équation x² = 25.
+controle,Mathématiques,Quel est le périmètre d'un carré de côté 7 ?
+controle,Mathématiques,Combien font 12 divisé par 4 ?
+controle,Mathématiques,Qu'est-ce qu'une matrice carrée ?
+controle,Mathématiques,Calculez 20 % de 150.
+controle,Mathématiques,Simplifiez la fraction 18/24.
+controle,Mathématiques,Quelle est la dérivée de la fonction sinus ?
+controle,Mathématiques,Qu'est-ce qu'un vecteur ?
+controle,Mathématiques,Trouvez la valeur de y si 2y + 4 = 12.
+controle,Mathématiques,Quel est le théorème de Pythagore ?
+controle,Physique,Qu'est-ce que l'accélération ?
+controle,Physique,Quelle est la vitesse de la lumière dans le vide ?
+controle,Physique,Comment fonctionne une lentille convergente ?
+controle,Physique,Quelle force s'exerce sur un objet en chute libre ?
+controle,Physique,Qu'est-ce que la résistance électrique ?
+controle,Physique,Qu'est-ce que l'énergie potentielle ?
+controle,Physique,Quelle est la période d'un pendule ?
+controle,Physique,Que dit le principe d'Archimède ?
+controle,Physique,Qu'est-ce que la fréquence d'une onde ?
+controle,Physique,Comment la chaleur se transmet-elle par conduction ?
